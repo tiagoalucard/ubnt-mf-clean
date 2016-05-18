@@ -1,10 +1,10 @@
 # ubnt-mf-clean
 Para o script funcionar você vai precisar do sshpass
 
-# ubuntu
+* ubuntu
 apt-get install sshpass 
 
-# CentOS
+* CentOS
 yum --enablerepo=epel -y install sshpass
 
 # Execução
