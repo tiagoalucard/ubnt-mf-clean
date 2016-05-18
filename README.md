@@ -2,9 +2,11 @@
 Para o script funcionar você vai precisar do sshpass
 
 * ubuntu
+
 apt-get install sshpass 
 
 * CentOS
+
 yum --enablerepo=epel -y install sshpass
 
 # Execução
