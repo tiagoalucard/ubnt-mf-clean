@@ -1,4 +1,6 @@
-niciando Variaveis
+#!/bin/bash
+
+# Iniciando Variaveis
 IP=$1;
 contador=0;
 
