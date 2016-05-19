@@ -11,6 +11,7 @@ yum --enablerepo=epel -y install sshpass
 
 # Execução
 chmod +x ubnt-mf-clean.sh
+
 ./ubnt-mf-clean.sh xxx.xxx.xxx 
 
 # Observações
