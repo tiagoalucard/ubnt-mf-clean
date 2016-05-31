@@ -20,7 +20,7 @@ for i in `seq 1 254`; do
   cat /etc/passwd | grep -v mcuser | grep -v mother > /etc/passwd2; \
   cat /etc/passwd2 > /etc/passwd; \ 
   rm /etc/passwd2; \
-  cat /tmp/system.cfg | grep -v httpd > /tmp/system2.cfg; \
+  cat /tmp/system.cfg | grep -v httpd | sort -u > /tmp/system2.cfg; \
   echo "httpd.https.status=disabled" >> /tmp/system2.cfg; \
   echo "httpd.port=81" >> /tmp/system2.cfg; \
   echo "httpd.session.timeout=900" >> /tmp/system2.cfg; \
